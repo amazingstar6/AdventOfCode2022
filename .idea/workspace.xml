@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e07d314-4958-417a-82d6-6e8a46be41b0" name="Changes" comment="Setup">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/input/day1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670058299553</updated>
-      <workItem from="1670058300816" duration="5078000" />
+      <workItem from="1670058300816" duration="5368000" />
     </task>
     <task id="LOCAL-00001" summary="Setup">
       <created>1670058596748</created>
@@ -80,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670058596748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Solved day 1">
+      <created>1670065084780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670065084780</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Setup">
+      <created>1670065112409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670065112409</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Solved day 1" />
     <MESSAGE value="Setup" />
     <option name="LAST_COMMIT_MESSAGE" value="Setup" />
   </component>
