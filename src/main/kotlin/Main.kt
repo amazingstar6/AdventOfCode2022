@@ -1,4 +1,4 @@
 fun main() {
-    val day1 = Day1()
-    day1.main()
+    val day2 = Day1()
+    day2.main()
 }

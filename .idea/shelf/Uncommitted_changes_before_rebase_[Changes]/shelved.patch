@@ -1,0 +1,78 @@
+Index: src/main/kotlin/Main.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>fun main() {\n    val day1 = Day1()\n    day1.main()\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/kotlin/Main.kt b/src/main/kotlin/Main.kt
+--- a/src/main/kotlin/Main.kt	(revision 65dc34150f60bf39b22a1f552e8e5d8fb273b384)
++++ b/src/main/kotlin/Main.kt	(date 1670065448428)
+@@ -1,4 +1,5 @@
+ fun main() {
+     val day1 = Day1()
+     day1.main()
++    println(222 > Int.MAX_VALUE)
+ }
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4e07d314-4958-417a-82d6-6e8a46be41b0\" name=\"Changes\" comment=\"Setup\">\n      <change afterPath=\"$PROJECT_DIR$/src/main/kotlin/Day1.kt\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/kotlin/input/day1.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/kotlin/Day1.java\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/kotlin/Main.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/kotlin/Main.kt\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n        <option value=\"Kotlin Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2IOgyRY68I0cLte9if49SbSZRw5\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/kotlin/input\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"MainKt\" type=\"JetRunConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"MainKt\" />\n      <module name=\"AdventOfCode2022\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Kotlin.MainKt\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4e07d314-4958-417a-82d6-6e8a46be41b0\" name=\"Changes\" comment=\"\" />\n      <created>1670058299553</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1670058299553</updated>\n      <workItem from=\"1670058300816\" duration=\"5078000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Setup\">\n      <created>1670058596748</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1670058596748</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"Setup\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Setup\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 65dc34150f60bf39b22a1f552e8e5d8fb273b384)
++++ b/.idea/workspace.xml	(date 1670065336302)
+@@ -2,10 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="4e07d314-4958-417a-82d6-6e8a46be41b0" name="Changes" comment="Setup">
+-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day1.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/input/day1.txt" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day1.java" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -71,7 +68,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1670058299553</updated>
+-      <workItem from="1670058300816" duration="5078000" />
++      <workItem from="1670058300816" duration="5368000" />
+     </task>
+     <task id="LOCAL-00001" summary="Setup">
+       <created>1670058596748</created>
+@@ -80,7 +77,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670058596748</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Solved day 1">
++      <created>1670065084780</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1670065084780</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Setup">
++      <created>1670065112409</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1670065112409</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -99,6 +110,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
++    <MESSAGE value="Solved day 1" />
+     <MESSAGE value="Setup" />
+     <option name="LAST_COMMIT_MESSAGE" value="Setup" />
+   </component>
