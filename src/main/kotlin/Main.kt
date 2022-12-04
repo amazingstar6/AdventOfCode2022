@@ -1,5 +1,5 @@
 fun main() {
-    val currentDay = Day3()
-    currentDay.part1()
-//    currentDay.part2()
+    val currentDay = Day4Oneliner()
+//    currentDay.part1()
+    println(currentDay.part2())
 }
